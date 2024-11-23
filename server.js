@@ -1,3 +1,6 @@
+// 카페24 업로드를 목적으로 만들어졌습니다
+//백엔드 폴더는 따로 업로드 하지 않음
+
 import express, { response } from 'express';
 import mysql from 'mysql';
 import cors from 'cors';
@@ -33,18 +36,18 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-    origin:["http://localhost:5173"],
+    origin:["http://localhost:5173"], //react+vite
     methods: ["POST","GET"],
     credentials: true
 }));
 app.use(cookieParser());
 
 const db = mysql.createConnection({
-    host: 'eventyr.cafe24app.com',
-    user: 'sses1007',
-    password:'whdTp0522!',
-    database: 'sses1007',
-    port:'3306'
+    host: '사이트 주소',
+    user: 'DB 아이디',
+    password:'DB 비밀번호',
+    database: '데이터베이스명',
+    port:'3306' // 카페24는 3306으로 고정
 });
 
 const verifyUser = (req, res, next) => {
