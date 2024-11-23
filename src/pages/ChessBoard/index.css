@@ -1,0 +1,27 @@
+.chessboard {
+	display: flex;
+	flex-direction: column;
+	width: 256px;
+  }
+  
+  .row {
+	display: flex;
+  }
+  
+  .square {
+	width: 32px;
+	height: 32px;
+  }
+  
+  .light {
+	background-color: #f0d9b5;
+  }
+  
+  .dark {
+	background-color: #b58863;
+  }
+  
+  .selected {
+	border: 2px solid #ff0000;
+  }
+  
