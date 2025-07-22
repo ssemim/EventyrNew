@@ -12,6 +12,7 @@
 [디자인 도움] 인혜씨
 
 [디자인 사용 툴] Figma, Adobe Illustrator
+<img width="1042" height="914" alt="Image" src="https://github.com/user-attachments/assets/95bdee6a-bb83-4f76-9f55-30b65eecc186" />
 
 [기능 목록] 
 
