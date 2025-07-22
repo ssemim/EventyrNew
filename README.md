@@ -3,6 +3,8 @@
 취미용으로 만들어진 사이트
 디자인 및 개발 모두 1인 작업
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U81XJHe3gow?si=4dwtAV52lByB8Fdz&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 [백엔드] Node.js
 [프론트엔드] React + Vite / Redux 
 [데이터베이스] MySQL
